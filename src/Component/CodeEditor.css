@@ -1,0 +1,38 @@
+.code-editor-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.code-output {
+    flex: 1;
+    overflow: auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+
+.code-input {
+    flex: 1;
+    height: 300px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+.code-input::placeholder {
+    color: #999;
+}
